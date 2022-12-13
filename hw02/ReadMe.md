@@ -1,5 +1,5 @@
-#hw02 - GPIO
-##Measuring GPIO pin on an oscilloscope
+# hw02 - GPIO
+## Measuring GPIO pin on an oscilloscope
 1. Min voltage: -222.4 mV Max voltage: 3.20 V
 2. Period: 122.275 ms Frequency: 8.18 Hz
 3. How close to 100ms? 22.275 ms slower
@@ -8,7 +8,7 @@
 6. Table of sleep time results:
 
 | Sleep time | Period (ms) | CPU Usage (%) |
-|------------|-_-----------|---------------|
+|------------|-------------|---------------|
 |0.1         | 122.3       | 4             |
 |0.05        | 71.5        | 5.9           | 
 |0.01        | 32.6        | 12.3          |
@@ -21,7 +21,7 @@
 10. Use .sh. Does the period change? Slightly, now when input is 0.1 ms I get period of ~117 ms
 11. Shortest period you could get? Roughly 16 ms
 
-##Table of results; Python vs. C
+## Table of results; Python vs. C
 
 |            | Python (1 bit) | C (1 bit) | Python (2 bits) | C (2 bits) |
 |------------|----------------|-----------|-----------------|------------|
