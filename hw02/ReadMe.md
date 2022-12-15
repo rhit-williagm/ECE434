@@ -28,3 +28,25 @@
 | Period:    | 19.8 us        | 3.89 us   | 20.1 us         | 3.92 us    |
 | Frequency: | 50.5 kHz       | 257.1 kHz | 49.8 kHz        | 255.1 kHz  |
 | CPU Usage: | 75.4%          | 95.5%     | 77.2%           | 95.7%      |
+
+
+
+# hw02 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  2/2 | Buttons and LEDs 
+|  8/8 | Etch-a-Sketch works
+|      | Measuring a gpio pin on an Oscilloscope 
+|  2/2 | Questions answered
+|  4/4 | Table complete
+|  2/2 | gpiod
+|      | Security
+|  0/1 | ssh port 
+|  0/1 | fail2ban
+| 18/20   | **Total**
+
+
+Your frequency is very low. 
+
+ssh port change and fail2ban are missing.
