@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#File name: temp.py
+#Author: Gaven Williams
+#Prints temperature values (in F) from 2 TMP101 chips
+
 import smbus
 import time
 

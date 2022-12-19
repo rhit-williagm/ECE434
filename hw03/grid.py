@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-#File name: etchasketch.py
+#File name: grid.py
 #Author: Gaven Williams
-#Date: 12/9/2022
+#Etch-a-sketch using led matrix, control with WASD
 
 import smbus
 import time

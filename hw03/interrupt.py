@@ -5,6 +5,10 @@ import time
 import gpiod
 import sys
 
+#File name: interrupt.py
+#Author: Gaven Williams
+#Prints temperature values if temp exceeds THIGH or goes below TLOW
+
 getoffsets=[30, 31]
 chip = gpiod.Chip('0')
 getlines = chip.get_lines(getoffsets)
