@@ -10,3 +10,18 @@ grid.py implements the etch-a-sketch program on an 8x8 led matrix. User can cont
 
 Configure eQEP 1 with config_e1.sh and eQEP 2 with config_e2.sh. grid_twist.py is the etch-a-sketch program controlled by 2 rotary encoders, displayed on the 8x8 led matrix. 
 
+
+# hw03 grading
+
+| Points      | Description | | |
+| ----------- | ----------- |-|-|
+|  8/8 | TMP101 
+|  2/2 |   | Documentation 
+|  5/5 | Etch-a-Sketch
+|  3/3 |   | setup.sh
+|  2/2 |   | Documentation
+| 20/20 | **Total**
+
+*My comments are in italics. --may*
+
+*Looks good*
