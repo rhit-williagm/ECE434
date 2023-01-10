@@ -21,8 +21,7 @@ Execute ./toggleled to toggle an led with mmap
 Run ./temp.sh to read the value of TMP101 in millidegrees C using the kernel
 
 ## LED matrix etch-a-sketch using Flask
-
-
+Run ./sketch.py to start the game. Contol at 192.168.7.2:8081, using the UP, DOWN, LEFT, and RIGHT options
 
 ## LCD Display
 
