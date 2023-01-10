@@ -13,18 +13,18 @@
 | GPIO3 | 0x481A_E000 | 0x481A_EFFF | 4KB | GPIO3 Registers |
 | GPIO3 | 0x481A_F000 | 0x481A_FFFF | 4KB | Reserved |
 
-##GPIO via mmap
+## GPIO via mmap
 Execute ./switchled to toggle 2 leds with P9_12 and P9_21 with mmap
 Execute ./toggleled to toggle an led with mmap
 
-##I2C via the kernel driver
+## I2C via the kernel driver
 Run ./temp.sh to read the value of TMP101 in millidegrees C using the kernel
 
-##LED matrix etch-a-sketch using Flask
+## LED matrix etch-a-sketch using Flask
 
 
 
-##LCD Display
+## LCD Display
 
 Can display images and movies
 
