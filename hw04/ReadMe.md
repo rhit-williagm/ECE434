@@ -17,6 +17,9 @@
 Execute ./switchled to toggle 2 leds with P9_12 and P9_21 with mmap
 Execute ./toggleled to toggle an led with mmap
 
+With delay, the led toggled at ~2 Hz
+Without delay, it toggled ~2.94 MHz
+
 ## I2C via the kernel driver
 Run ./temp.sh to read the value of TMP101 in millidegrees C using the kernel
 
