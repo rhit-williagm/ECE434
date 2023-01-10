@@ -5,6 +5,10 @@
 #include <fcntl.h>
 #include <signal.h>
 
+//  Author: Gaven Williams
+//  toggles LED with mmap
+//  1/9/2023
+
 #define GPIO0_START_ADDR 0x44E07000
 #define GPIO0_END_ADDR 0x44E09000
 #define GPIO0_SIZE (GPIO0_END_ADDR - GPIO0_START_ADDR)
