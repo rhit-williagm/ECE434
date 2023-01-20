@@ -44,3 +44,7 @@ Low priority interrupt is still executing.
 11. Why can the External event in Figure 4 start sooner?
 
 Higher priority interrupt allows it to. 
+
+
+## PREEMPT_RT
+Attached is a png file showing the latencies for both RT and non-RT kernels. The RT kernel shows a more bounded latency than the non-RT kernel. I was using make and make clean as a load during the process. 
