@@ -48,3 +48,17 @@ Higher priority interrupt allows it to.
 
 ## PREEMPT_RT
 Attached is a png file showing the latencies for both RT and non-RT kernels. The RT kernel shows a more bounded latency than the non-RT kernel. I was using make and make clean as a load during the process. 
+
+# hw06 grading
+
+| Points      | Description | |
+| ----------- | ----------- |-|
+|  2/2 | Project | *MIDI Synthesizer*
+|  4/5 | Questions | *Mainline is the main kernel tree.*
+|  4/4 | PREEMPT_RT
+|  2/2 | Plots to 500 us
+|  4/5 | Plots - Heavy/Light load | *rtnoload.png looks like a loaded plot.*
+|  2/2 | Extras
+| 18/20 | **Total**
+
+*My comments are in italics. --may*
