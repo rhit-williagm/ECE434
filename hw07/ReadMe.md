@@ -31,3 +31,9 @@ Run tempP9.sh
 Change to ECE434/hw07
 
 You will see the 3 temperatures in millidegrees C
+
+## systemd
+
+systemctl start flask
+
+Control P9_14 LED at 192.168.7.2:8081
