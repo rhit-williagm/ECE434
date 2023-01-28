@@ -1,1 +1,0 @@
-config-pin P9_12 gpio
