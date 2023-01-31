@@ -19,3 +19,5 @@ P9_28, P9_29, P9_30, P9_31
 ## Reading an Input at Regular Intervals
 
 get a transistor so that you don't fry your beaglebone
+
+## Analog Wave Generator
