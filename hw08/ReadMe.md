@@ -11,6 +11,8 @@ USR3 works, header pins do not.
 
 ## PWM Generator
 
+The file pwm1.pru0.c toggles pin P9_31 at 50 MHz
+
 ## Controlling the PWM Frequency
 
 What output pins are being driven?
