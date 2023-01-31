@@ -7,7 +7,9 @@ echo "start" > /sys/class/remoteproc/remoteproc1/state
 What command will stop it?
 echo "stop" > /sys/class/remoteproc/remoteproc1/state
 
-USR3 works, header pins do not. 
+With blink.pru0.c, the PRU toggles P9_31. 
+
+Make sure that P9_31 is configured to gpio, with direction set to out in /sys/class/gpio/gpio110
 
 ## PWM Generator
 
