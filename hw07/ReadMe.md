@@ -37,3 +37,17 @@ You will see the 3 temperatures in millidegrees C
 systemctl start flask
 
 Control P9_14 LED at 192.168.7.2:8081
+
+# hw07 grading
+
+| Points      | Description |  | Feedback
+| ----------- | ----------- | - | -
+|  2/2  | Project Template | | *MIDI Sequencer*
+|  2/2  | | Names | 
+|  0/2  | | Executive Summary | *missing*
+|  7/7  | 1-wire | 
+|  7/7  | systemd auto start |
+|  0    | Blynk - Etch-a-sketch - extra | 
+| 18/20 | **Total**
+
+*My comments are in italics. --may*
