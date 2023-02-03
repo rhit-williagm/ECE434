@@ -15,13 +15,17 @@ Make sure that P9_31 is configured to gpio, with direction set to out in /sys/cl
 
 The file pwm1.pru0.c toggles pin P9_31 at 50 MHz
 
+pwm1.jpg shows the waveform. It isn't very square, which is probably due to the breadboard at such a high frequency. There isn't much jitter though. 
+
 ## Controlling the PWM Frequency
 
 What output pins are being driven?
 P9_28, P9_29, P9_30, P9_31
 
+Control 4 channels with pwm4.pru0.c
+
+pwm4.jpg shows all 4 pwm channels on one scope capture. 
+
 ## Reading an Input at Regular Intervals
 
-get a transistor so that you don't fry your beaglebone
-
-## Analog Wave Generator
+inputoutput.png shows the difference between input from a AWG and the R30 output pin (roughly 29 ns delta x)
