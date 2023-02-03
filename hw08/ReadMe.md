@@ -22,7 +22,10 @@ pwm1.jpg shows the waveform. It isn't very square, which is probably due to the 
 What output pins are being driven?
 P9_28, P9_29, P9_30, P9_31
 
+Control 4 channels with pwm4.pru0.c
+
 pwm4.jpg shows all 4 pwm channels on one scope capture. 
 
 ## Reading an Input at Regular Intervals
 
+inputoutput.png shows the difference between input from a AWG and the R30 output pin (roughly 29 ns delta x)
