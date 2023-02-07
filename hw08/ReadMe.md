@@ -29,3 +29,15 @@ pwm4.jpg shows all 4 pwm channels on one scope capture.
 ## Reading an Input at Regular Intervals
 
 inputoutput.png shows the difference between input from a AWG and the R30 output pin (roughly 29 ns delta x)
+
+# hw08 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+| 14/14 | PRU
+|  2/2 | Controlling the PWM Frequency - optional
+|  2/2 | Reading an Input at Regular Intervals - optional
+|  0/2 | Analog Wave Generator - optional
+| 18 | **Total**
+
+*My comments are in italics. --may*
